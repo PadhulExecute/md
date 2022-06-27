@@ -1,7 +1,7 @@
 // all chats ke broadcast
 let handler  = async (m, { conn, text }) => {
-  let chats = Object.keys(await conn.chats)
-  conn.reply(m.chat, `_Mengirim pesan broadcast ke ${chats.length} chat_`, m)
+  let groups= Object.keys(await conn.chats)
+  conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
   for (let id of chats) {
        let bcbg = 'https://telegra.ph/file/b2ae8a0e437e4252d5124.png'
        await conn.delay(1500)
@@ -13,13 +13,6 @@ handler.help = ['broadcast','bc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
 handler.command = /^(broadcast|bc)$/i
 handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
 
 handler.fail = null
 
