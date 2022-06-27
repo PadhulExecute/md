@@ -43,11 +43,11 @@ global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/aguzfamilia"
+global.urlnya = "https://www.instagram.com/syefadhil"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 813-2017-0984'
+global.phn = '625600204672'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
@@ -62,7 +62,7 @@ global.author = data.owner;
 
 //=========== Requirements ==========//  
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy ᴀɢᴜᴢ ꜰᴀᴍɪʟɪᴀ'
+        global.colong2 = 'ʙy Fadhil ganz'
 global.img = pickRandom(waifu)
 global.fla = pickRandom(flaaa)
 
