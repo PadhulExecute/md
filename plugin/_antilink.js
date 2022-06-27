@@ -11,7 +11,7 @@ handler.before = async function (m, { isAdmin, isBotAdmin }) {
     if (m.text.includes(thisGroup)) throw false // jika link grup itu sendiri gak dikick
       if (!isBotAdmin) m.reply(` *「 ANTILINK 」* ${isAdmin ? "Admin mah bebas ygy :'v" : `\n\nlink group terdeteksi dan ${global.namabot} bukan admin jadi tidak bisa ngekick!`}`)
     if (isBotAdmin) {
-      m.reply(` *「 ANTILINK 」* \n\nLink Group Terdeteksi, bye Kamu Akan Di Kick!!`.trim())
+      m.reply(` *「 ANTILINK 」* \n\nliat deskripsi lah blok, bye Kamu Akan Di Kick!!`.trim())
       await this.delay(500)
       await this.groupParticipantsUpdate(m.chat, [m.sender], "remove")
     }
